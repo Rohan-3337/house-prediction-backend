@@ -30,4 +30,4 @@ if __name__ == "__main__":
     print("Starting Python Flask Server For Home Price Prediction...")
     util.load_saved_artifacts()
 
-    app.run(host='127.0.0.1', port=3000)
+    app.run()
